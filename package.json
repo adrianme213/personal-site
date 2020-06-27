@@ -1,0 +1,35 @@
+{
+  "name": "stories-for-life",
+  "version": "1.0.0",
+  "description": "First draft for Stories for Life, place to learn and apply to one's life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-all:cy:jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianme213/personal-site.git"
+  },
+  "author": "Adrian Meza",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adrianme213/personal-site/issues"
+  },
+  "homepage": "https://github.com/adrianme213/personal-site#readme",
+  "devDependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "cypress": "^4.9.0",
+    "eslint": "^7.3.1",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.5",
+    "utf-8-validate": "^5.0.2"
+  },
+  "dependencies": {
+    "d3": "^5.16.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
