@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from 'express';
 
 import { PORT } from './config/constants';
 import { userRouter } from './routes/index';
-
+import db from './db/index';
 
 const app: Application = express();
 /* Middlewares */
