@@ -9,18 +9,13 @@
     <p><strong>Location: </strong>A city in California</p>
     <p><strong>Email: </strong>adrianme213@gmail.com</p>
 
-    <form class="" action="index.html" method="post">
+    <form action="mailto:adrianme213@gmail.com" method="post" enctype="text/plain">
       <label>Your Name:</label>
-      <input type="text">
-      <input type="color">
-
-      <label>Do you want to sign up for an email list?</label>
-      <input type="checkbox">
-
-      <label>Password:</label>
-      <input type="password">
-      <label>Date</label>
-      <input type="date">
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
       <input type="submit">
     </form>
   </body>
